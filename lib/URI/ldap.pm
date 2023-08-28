@@ -7,7 +7,7 @@ package URI::ldap;
 use strict;
 use warnings;
 
-our $VERSION = '5.20';
+our $VERSION = '5.22';
 
 use parent qw(URI::_ldap URI::_server);
 
