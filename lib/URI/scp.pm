@@ -1,4 +1,4 @@
-package URI::sftp;
+package URI::scp;
 
 use strict;
 use warnings;

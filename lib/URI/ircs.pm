@@ -1,13 +1,13 @@
-package URI::nntps;
+package URI::ircs;
 
 use strict;
 use warnings;
 
 our $VERSION = '5.31';
 
-use parent 'URI::nntp';
+use parent 'URI::irc';
 
-sub default_port { 563 }
+sub default_port { 994 }
 
 sub secure { 1 }
 
