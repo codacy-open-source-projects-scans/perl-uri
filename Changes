@@ -2,6 +2,17 @@ Revision history for URI
 
 {{$NEXT}}
 
+5.34      2025-09-17 11:00:27Z
+    - Add WebSocket (ws, wss) URI (GH#158) (david-dick)
+
+5.33      2025-09-17 03:23:13Z
+    - Add smtp scheme (GH#156) (SineSwiper)
+
+5.32      2025-05-10 21:26:50Z
+    - Add authority() to URI::otpauth (GH#152) (GH#153) (Lester Hightower)
+    - Implement URI::smb for Samba/CIFS (GH#149) (buralien)
+    - Silence warnings issued in t/otpauth.t (GH#154) (Olaf Alders)
+
 5.31      2024-11-06 03:38:29Z
     - Re-releasing with corrected module permissions. No changes since 5.31
 
